@@ -1,0 +1,21 @@
+autoleadx/
+├── app/                   # Next.js App Router
+│   ├── about/            # About page
+│   ├── contact/          # Contact page
+│   ├── services/         # Services page
+│   ├── globals.css       # Global CSS
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Home page
+├── components/           # Reusable components
+│   ├── Footer.tsx        # Footer component
+│   ├── HeroBanner.tsx    # Hero banner component
+│   ├── Navigation.tsx    # Navigation component
+│   └── ServiceCard.tsx   # Service card component
+├── public/               # Static assets
+│   └── hero/             # Hero images
+├── .github/              # GitHub workflows
+│   └── workflows/        # CI/CD workflows
+├── next.config.js        # Next.js configuration
+├── package.json          # Project dependencies
+├── tailwind.config.js    # Tailwind CSS configuration
+└── tsconfig.json         # TypeScript configuration
